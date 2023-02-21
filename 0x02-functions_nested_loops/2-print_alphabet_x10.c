@@ -1,12 +1,22 @@
 #include "main.h"
-
 /**
- * add - Add two integers
- * @x: int type number
- * @y: int type number
- * Return: result of addition
+ * print_alphabet_x10 - Print alphabet in lowercase 10 times
+ * Return: 0
 */
-int add(int x, int y)
+void print_alphabet_x10(void)
 {
-	return (x + y);
+	int i = 0;
+	char c;
+
+	while (i < 10)
+	{
+		c = 'a';
+		while (c <= 'z')
+		{
+			_putchar(c);
+			c++;
+		}
+		_putchar('\n');
+		i++;
+	}
 }
