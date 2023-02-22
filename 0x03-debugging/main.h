@@ -2,9 +2,7 @@
 #define MAIN_H
 
 #include <stdio.h>
-/**
-  *This is main .h 
-*/
+/* MAIN_H */
 void positive_or_negative(int i);
 
 #endif 
